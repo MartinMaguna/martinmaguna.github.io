@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmos</title>
+    <title>Contacto</title>
     <link rel="shortcut icon" href="../images/FaviconPreEntrega2.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-item-center w-100">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-md-center align-item-center w-100">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
                         </li>
@@ -44,29 +44,37 @@
         </nav>
     </header>
 
-    <main class="container">
+    <main class="container mt-5">
         <div class="row">
             <div class="col-sm-12 col-md-12">
-                <h2>Contacto</h2>
+                <h2 class="d-flex justify-content-md-center page-title">Nosotros</h2>
             </div>
-            <div class="col-sm-12 col-md-12">
-            <form action="" method="post">
-                <div>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <input type="email" name="" id="">
-                </div>
-                <div>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="">
-                </div>
-            </form>
+            <div>
+                <form>
+                    <div class="form-group form-group-autosetting">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                    </div>
+                    
+                    <div class="form-group form-group-autosetting">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Escribe tu email">
+                    </div>
+
+                    <div class="form-group form-group-autosetting">
+                        <label for="comentario">Comentario:</label>
+                        <textarea class="form-control" id="comentario" rows="4" placeholder="Escribe tu comentario"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primaryCosmos">Enviar</button>
+                </form>
             </div>
+
+
         </div>
     </main>
+
+
 
     <footer>
         <p>Cosmos</p>
@@ -77,4 +85,3 @@
 </body>
 
 </html>
-

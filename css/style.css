@@ -5,9 +5,8 @@ box-sizing: border-box;
 
 .navSetting{
     background-color: black;
-    height: 10vh;
+    height: auto;
 }
-
 
 .navbar .nav-link {
     color:white;
@@ -20,7 +19,29 @@ box-sizing: border-box;
 .navbar-toggler{       
     background-color:blueviolet;
 }
-  
+
+.form-group-autosetting{
+    margin: 1rem;
+}
+
+.btn-primaryCosmos{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main__portada{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 81vh;
+}
+
+.main__portada--imagen{
+    height: 80vh;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -28,23 +49,43 @@ main{
     height: auto;
 }
 
-.main__portada{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    height: 80vh;
+.page-title{
+padding: 1rem;
 }
 
-.main__portada--imagen{
-    height: 80vh;
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-title a {
+    color: blueviolet;
+    text-decoration: none;
+  }
+  
+   .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 200px;
+    object-fit: cover; 
+  }
+  
+  .card-text {
+    color: #333;
+  }
 
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 10vh; 
     color: white;
     background-color: blueviolet;
 }
-
